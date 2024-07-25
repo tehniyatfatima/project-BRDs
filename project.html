@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban-style User Story Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .heading {
+            width: 100%;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .card {
+            width: 250px;
+            background: white;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            flex-direction: column;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.2em;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        .card p {
+            margin: 10px 0;
+            flex-grow: 1;
+        }
+        .acceptance-criteria {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heading">Website Visitor Stories</div>
+    <div class="card">
+        <h3>View Photos from Past Events</h3>
+        <p>
+            <strong>Description:</strong> As a website visitor, I want to view photos from past tutoring academy events so that I can see the activities and engagement of the academy.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Read About Mission and Vision</h3>
+        <p>
+            <strong>Description:</strong> As a website visitor, I want to read about the nonprofit's mission and vision so that I can understand the purpose and goals of the organization.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Learn About the Team</h3>
+        <p>
+            <strong>Description:</strong> As a website visitor, I want to learn about the nonprofit team so that I can know the people behind the organization.
+        </p>
+    </div>
+    <div class="card">
+        <h3>View Financial Transparency Page</h3>
+        <p>
+            <strong>Description:</strong> As a website visitor, I want to view the financial transparency page so that I can see how funds are managed and the president's voluntary service.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Find Links to Portals</h3>
+        <p>
+            <strong>Description:</strong> As a website visitor, I want to find links to portals for parents, volunteers, and administrators so that I can easily access the specific portal I need.
+        </p>
+    </div>
+
+    <div class="heading">Parent Stories</div>
+    <div class="card">
+        <h3>Register and Log In</h3>
+        <p>
+            <strong>Description:</strong> As a parent, I want to register and log in to the portal so that I can securely access and manage my child's tutoring sessions.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Register Tutoring Sessions</h3>
+        <p>
+            <strong>Description:</strong> As a parent, I want to register tutoring sessions for my child so that my child can receive the necessary educational support.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Receive Automated Session Reminders</h3>
+        <p>
+            <strong>Description:</strong> As a parent, I want to receive automated session reminders so that I can ensure my child attends their tutoring sessions on time.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Review Child's Progress</h3>
+        <p>
+            <strong>Description:</strong> As a parent, I want to review my child's progress so that I can track their academic development and address any concerns.
+        </p>
+    </div>
+
+    <div class="heading">Volunteer Stories</div>
+    <div class="card">
+        <h3>Log In and Document Hours</h3>
+        <p>
+            <strong>Description:</strong> As a volunteer, I want to log in to the portal so that I can document my volunteering hours and access resources.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Select Students to Tutor</h3>
+        <p>
+            <strong>Description:</strong> As a volunteer, I want to select students to tutor from a database so that I can match with students who need my help.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Access Curriculum Worksheets</h3>
+        <p>
+            <strong>Description:</strong> As a volunteer, I want to access curriculum worksheets so that I can use them during tutoring sessions.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Record Student Progress and Behavior</h3>
+        <p>
+            <strong>Description:</strong> As a volunteer, I want to record student progress and behavior so that I can provide feedback and track improvements.
+        </p>
+    </div>
+    <div class="card">
+        <h3>View Hierarchical Ranking of Hours</h3>
+        <p>
+            <strong>Description:</strong> As a volunteer, I want to view a hierarchical ranking of volunteer hours so that I can see how my contributions compare to others.
+        </p>
+    </div>
+
+    <div class="heading">Administrator Stories</div>
+    <div class="card">
+        <h3>Switch Views to See Parent and Volunteer Experiences</h3>
+        <p>
+            <strong>Description:</strong> As an administrator, I want to switch views to see parents' and volunteers' experiences so that I can understand their perspectives and ensure a seamless experience.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Access Data Analytics</h3>
+        <p>
+            <strong>Description:</strong> As an administrator, I want to access data analytics on student registrations, session attendance, volunteer hours, and student performance so that I can make informed decisions and improvements.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Manage Databases and Profiles</h3>
+        <p>
+            <strong>Description:</strong> As an administrator, I want to manage databases and profiles for students and volunteers so that I can keep information organized and up to date.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Upload Documents to Curriculum Database</h3>
+        <p>
+            <strong>Description:</strong> As an administrator, I want to upload documents to the curriculum database so that volunteers have access to the latest materials.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Review and Edit Volunteer Data Entries</h3>
+        <p>
+            <strong>Description:</strong> As an administrator, I want to review and edit volunteer data entries so that I can ensure accuracy and address any discrepancies.
+        </p>
+    </div>
+
+</body>
+</html>
